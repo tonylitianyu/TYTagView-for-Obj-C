@@ -15,6 +15,7 @@
 		BFEB6A8D1B5EB96300A5655C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFEB6A8B1B5EB96300A5655C /* LaunchScreen.storyboard */; };
 		BFEB6A981B5EB96300A5655C /* TYTagTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEB6A971B5EB96300A5655C /* TYTagTests.m */; };
 		BFEB6AA31B5EB96300A5655C /* TYTagUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEB6AA21B5EB96300A5655C /* TYTagUITests.m */; };
+		BFEB6AB21B5EB99A00A5655C /* TYTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEB6AB11B5EB99A00A5655C /* TYTagView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BFEB6A9E1B5EB96300A5655C /* TYTagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYTagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFEB6AA21B5EB96300A5655C /* TYTagUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYTagUITests.m; sourceTree = "<group>"; };
 		BFEB6AA41B5EB96300A5655C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFEB6AB01B5EB99A00A5655C /* TYTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTagView.h; sourceTree = "<group>"; };
+		BFEB6AB11B5EB99A00A5655C /* TYTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTagView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				BFEB6A811B5EB96300A5655C /* AppDelegate.m */,
 				BFEB6A831B5EB96300A5655C /* ViewController.h */,
 				BFEB6A841B5EB96300A5655C /* ViewController.m */,
+				BFEB6AB01B5EB99A00A5655C /* TYTagView.h */,
+				BFEB6AB11B5EB99A00A5655C /* TYTagView.m */,
 				BFEB6A861B5EB96300A5655C /* Main.storyboard */,
 				BFEB6A891B5EB96300A5655C /* Assets.xcassets */,
 				BFEB6A8B1B5EB96300A5655C /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				BFEB6A851B5EB96300A5655C /* ViewController.m in Sources */,
 				BFEB6A821B5EB96300A5655C /* AppDelegate.m in Sources */,
+				BFEB6AB21B5EB99A00A5655C /* TYTagView.m in Sources */,
 				BFEB6A7F1B5EB96300A5655C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
